@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Card, Col } from 'react-bootstrap';
+import './styles.css';
 
 
 const CardContainer = ({ title, description, imageUrl }) => {
@@ -7,7 +8,7 @@ const CardContainer = ({ title, description, imageUrl }) => {
     <Container fluid='md'>
       <Row className='justify-content-md-center p-3'>
         <Col md={4}>
-          <Card className='text-center' style={{ width: 'auto' }}>
+          <Card>
             <Card.Img variant='top' src={imageUrl} />
             <Card.Body>
               <Card.Title>{title}</Card.Title>

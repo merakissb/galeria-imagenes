@@ -1,0 +1,16 @@
+.card {
+  text-align: center;
+  width: auto;
+}
+
+.card-body {
+  background-color: black;
+}
+
+.card-title {
+  color: #ccc;
+}
+
+.card-text {
+  color: #ccc;
+}

@@ -1,6 +1,6 @@
 const Dictionary = {
   'footer': {
-    'paragraph': 'Galería de imagenes, todos los derechos reservados.'
+    'paragraph': 'Galería de imagenes con React, todos los derechos reservados.'
   }
 };
 
