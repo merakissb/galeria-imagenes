@@ -1,5 +1,6 @@
 import React from 'react';
-import { Container, Row, Card, Col } from 'react-bootstrap';
+import { Button, Container, Row, Card, Col } from 'react-bootstrap';
+import Dictionary from './config/dictionary/es';
 import './styles.css';
 
 
@@ -13,6 +14,7 @@ const CardContainer = ({ title, description, imageUrl }) => {
             <Card.Body>
               <Card.Title>{title}</Card.Title>
               <Card.Text>{description}</Card.Text>
+              <Button variant="primary">{Dictionary.button}</Button>
             </Card.Body>
           </Card>
         </Col>

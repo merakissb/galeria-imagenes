@@ -5,7 +5,7 @@ import './styles.css'
 const Footer = () => {
   return (
     <footer>
-      <p>{Dictionary.footer.paragraph}</p>
+      <p>{Dictionary.paragraph}</p>
     </footer>
   );
 }
