@@ -1,5 +1,7 @@
 const Dictionary = {
-  'title': 'Galería de Imágenes con React'
+  header: {
+    title: 'Galería de Imágenes con React'
+  }
 };
 
 export default Dictionary;

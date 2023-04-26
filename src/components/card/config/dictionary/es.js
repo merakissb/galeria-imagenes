@@ -1,5 +1,7 @@
 const Dictionary = {
-  'button': 'Ver más sobre este felino'
+  card: {
+    button: 'Ver más sobre este felino'
+  }
 };
 
 export default Dictionary;

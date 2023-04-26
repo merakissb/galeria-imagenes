@@ -1,10 +1,12 @@
 import React from 'react';
 import { Button, Container, Row, Card, Col } from 'react-bootstrap';
 import Dictionary from './config/dictionary/es';
-import './styles.css';
+import './style.css';
 
 
-const CardContainer = ({ title, description, imageUrl }) => {
+const CardContainer = (props) => {
+  const { title, description, imageUrl } = props;
+
   return (
     <Container fluid='md'>
       <Row className='justify-content-md-center p-3'>
@@ -14,7 +16,7 @@ const CardContainer = ({ title, description, imageUrl }) => {
             <Card.Body>
               <Card.Title>{title}</Card.Title>
               <Card.Text>{description}</Card.Text>
-              <Button variant="primary">{Dictionary.button}</Button>
+              <Button variant="primary">{Dictionary.card.button}</Button>
             </Card.Body>
           </Card>
         </Col>

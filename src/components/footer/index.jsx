@@ -1,11 +1,11 @@
 import React from 'react';
 import Dictionary from './config/dictionary/es';
-import './styles.css'
+import './style.css'
 
 const Footer = () => {
   return (
     <footer>
-      <p>{Dictionary.paragraph}</p>
+      <p>{Dictionary.footer.paragraph}</p>
     </footer>
   );
 }

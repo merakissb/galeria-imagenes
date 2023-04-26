@@ -1,5 +1,7 @@
 const Dictionary = {
-  'paragraph': 'Galería de imagenes con React, todos los derechos reservados.'
+  footer: {
+    paragraph: 'Galería de imagenes con React, todos los derechos reservados.'
+  }
 };
 
 export default Dictionary;
