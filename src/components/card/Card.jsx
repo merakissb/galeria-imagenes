@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Container, Row, Col } from 'react-bootstrap';
-import { Card as BoostrapCard } from 'react-bootstrap';
+import { Card as BootstrapCard } from 'react-bootstrap';
 import Dictionary from './config/dictionary/es';
 import './style.css';
 
@@ -12,14 +12,14 @@ const Card = (props) => {
     <Container fluid='md'>
       <Row className='justify-content-md-center p-3'>
         <Col md={4}>
-          <BoostrapCard>
-            <BoostrapCard.Img variant='top' src={imageUrl} />
-            <BoostrapCard.Body>
-              <BoostrapCard.Title>{title}</BoostrapCard.Title>
-              <BoostrapCard.Text>{description}</BoostrapCard.Text>
+          <BootstrapCard>
+            <BootstrapCard.Img variant='top' src={imageUrl} />
+            <BootstrapCard.Body>
+              <BootstrapCard.Title>{title}</BootstrapCard.Title>
+              <BootstrapCard.Text>{description}</BootstrapCard.Text>
               <Button variant="primary">{Dictionary.card.button}</Button>
-            </BoostrapCard.Body>
-          </BoostrapCard>
+            </BootstrapCard.Body>
+          </BootstrapCard>
         </Col>
       </Row>
     </Container>
